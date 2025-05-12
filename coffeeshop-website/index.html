@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean Haven - Modern Coffee Experience</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Bean Haven Logo">
+                <span>Bean Haven</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Discover the Art of <span>Coffee</span></h1>
+            <p class="hero-subtitle">Where every cup tells a story</p>
+            <a href="#menu" class="cta-button">Explore Menu</a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/images/had.jpg" alt="Specialty Coffee" class="floating">
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-image parallax">
+            <img src="assets/images/menu.jpg" alt="Coffee Beans">
+        </div>
+        <div class="about-content">
+            <h2>Our Story</h2>
+            <p>Founded in 2015, Bean Haven started as a small passion project between two coffee enthusiasts. Today, we've grown into a community hub for coffee lovers, serving carefully sourced beans from around the world.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="counter" data-target="8">5</span>
+                    <span>Years</span>
+                </div>
+                <div class="stat-item">
+                    <span class="counter" data-target="50">8</span>
+                    <span>Varieties</span>
+                </div>
+                <div class="stat-item">
+                    <span class="counter" data-target="1000">3</span>
+                    <span>Happy Customers</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="menu-categories">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="coffee">Coffee</button>
+            <button class="category-btn" data-category="tea">Tea</button>
+            <button class="category-btn" data-category="dessert">Desserts</button>
+        </div>
+        <div class="menu-items">
+            <!-- Items will be loaded via JavaScript -->
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <h2 class="section-title">Coffee Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="assets/images/art.jpg" alt="Coffee Art">
+                <div class="overlay">
+                    <h3>Latte Art</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/coffebeans1.jpg" alt="Coffee Beans">
+                <div class="overlay">
+                    <h3>Premium Beans</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/coffe32.jpg" alt="Coffee Shop">
+                <div class="overlay">
+                    <h3>Cozy Atmosphere</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-info">
+            <h2>Visit Us</h2>
+            <p><i class="fas fa-map-marker-alt"></i> 455 Coffee Street, Bean City</p>
+            <p><i class="fas fa-phone"></i> 6282130212746</p>
+            <p><i class="fas fa-envelope"></i> coffeeshhoppe445@gmail.com</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Bean Haven. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
